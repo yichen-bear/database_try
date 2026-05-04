@@ -82,7 +82,7 @@ HTML_PAGE = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>菜單系統</title>
+    <title>嘿嘿嘿</title>
 </head>
 <body>
     <h1>🍜 菜單管理</h1>
