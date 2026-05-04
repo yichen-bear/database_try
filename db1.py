@@ -45,14 +45,6 @@ def get_menu():
             "description": row[4],
             "available": row[5]
         })
-
-    return jsonify(menu)
-
-# API：新增菜單
-@app.route("/api/menu", methods=["POST"])
-def add_item():
-    data = request.json
-    conn = get_db()
     cursor = conn.cursor()
 
     cursor.execute("""
